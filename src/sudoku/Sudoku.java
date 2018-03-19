@@ -34,6 +34,7 @@ public class Sudoku
         {
             ArrayList<Integer> fila = new ArrayList<>();//Creamos un array para guardar las filas
             sudoku.add(fila);//añadimos las filas al array de sudoku
+            
 
         }
     }
@@ -44,7 +45,8 @@ public class Sudoku
     @Override
     public String toString ()
     {
-        String resultadoFinal = "";
+        String resultadoFinal = "||-----||-----||-----||\n";
+        
         return resultadoFinal;
     }
     

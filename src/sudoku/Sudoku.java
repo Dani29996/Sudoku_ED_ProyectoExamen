@@ -45,7 +45,7 @@ public class Sudoku
     @Override
     public String toString ()
     {
-        String resultadoFinal = "||-----||-----||-----||\n";
+        String resultadoFinal = "||----||----||----||\n";
         
         return resultadoFinal;
     }
